@@ -4,7 +4,7 @@ p,h1,h2,h3,a{
 }
 @font-face {
     font-family: 'unifont'; 
-    src: url('/unifont-17.0.02.otf') format('opentype');
+    src: url('unifont-17.0.02.otf') format('opentype');
     }
 @keyframes slideIn {
         from {
