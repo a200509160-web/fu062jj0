@@ -6,6 +6,10 @@ p,h1,h2,h3,a{
     font-family: 'unifont';
     line-height: 1.4;
 }
+body{
+    margin: 0;
+    background: linear-gradient(#14346D, #383bff);}
+
 header{
     background-color: #003266;
     display: flex;

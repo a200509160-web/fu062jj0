@@ -66,6 +66,7 @@ nav a:hover{
     height:200px;
 }
 body{
+    margin: 0;
 background: radial-gradient(#155eac,#013570);  
  display: flex;
     flex-direction: column;}
