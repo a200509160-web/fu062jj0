@@ -10,31 +10,34 @@
 
 <body style="background: linear-gradient(#14346D, #383bff);">
 
-  <header style="z-index:2">
+   <header style="z-index:2">
             <h1>貓毛卯茂meme集中所</h1>
+            <input type="checkbox" id="menu-change" class="menu-checkbox">
+            <label for="menu-change" class="h-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
             <nav>
                 <ul>
-                    <li><a href="#" class="now">首頁</a></li>
+                    <li><a href="#"  class="now">首頁</a></li>
                     <li><a href="index2.html">迷因館</a></li>
-                    <li ><a href="index3.html">貓咪芝士</a></li>
+                    <li><a href="index3.html">貓咪芝士</a></li>
                     <li><a href="index4.html">支持我們</a></li>
                 </ul>
             </nav>
         </header>
 <div>
-   <div style="
+   <div class="animate-glow banner" style="
         
        
         background-image:url(img/nyancat.gif);
-        background-size:80%;
-        background-position:left;
-       
-        background-repeat:no-repeat;text-align:center;"> 
+     "> 
         
         
         
-        <p style="font-family: 'unifont';color:#ffffff;font-size:70px;padding-top:30%">貓毛卯茂</p>
-        <p style="font-family: 'unifont';color:#ffffff;font-size:30px;margin-top:-40px">meme集中所</p>
+        <p  style="font-family: 'unifont';color:#ffffff;font-size:70px;padding-top:30%">貓毛卯茂</p>
+        <p   style="animation-delay: 0.8s;font-family: 'unifont';color:#ffffff;font-size:30px;margin-top:-40px">meme集中所</p>
         
       <div style=" height:100px;">
         
@@ -44,44 +47,109 @@
 
      
      </div>
+     <div  class="animate-bounce">
       <img src="img/thing_cats_06.png"
           style="position: relative; bottom:-10px;left: 49%;height:100px;z-index:1">
-<center><p style="font-family: 'unifont';text-align:center;color:#ffffff;font-size:30px;border-bottom: 2px solid white;display: inline;padding:0px 100px 25px 100px;">帶你進入貓咪世界</p></center>
+<center><p class="sbanner">帶你進入貓咪世界</p></center>
     
-      <div style=" display:flex; justify-content: center;padding-bottom:7vw;padding-top:5vw">
-   
-        
-        
+     </div>
+
+<h1  class="animate-bounce-slow" style="margin-top:20vw;padding-top:100px;padding-bottom:-300px;"><img src="img/catt.gif"
+          style="display:flex; justify-content: center;width:15%">你知道嗎？</h1>
       
+      <div style=" display:flex; justify-content: center;padding-bottom:;padding-left:10%;padding-right:10%;">
+ 
+        
+        
        
-        <maincard>
-            <img src="img/smile.png"
-            >
-          <p  style="font-family: 'unifont'">使你展現笑容</p>
-        
-            
-        </maincard>
-      
-        
-         
-        <maincard>
-            
-            <img src="img/heart.png"
-            >
-          <p  >讓你療癒心靈</p>
-        </maincard>
+        <div style="display:flex; text-align:center;" class="all-box" >
+            <div id="cold-knowledge" class="tab-pane">
+                <div class="box-1 border">
+                  
+                    <p>貓咪有230根骨頭，比人類多24根！</p>
+                </div>
+                <div class="box-1 border">
+                    
+                    <p>貓咪可以發出超過100種不同的聲音</p>
+                </div>
+                <div class="box-1 border">
+                   
+                    <p>貓咪的鼻紋是獨一無二的，就像人類的指紋</p>
+                </div>
+                <div class="box-1 border">
+                 
+                    <p>貓咪每天會花費30-50%的時間梳理毛髮</p>
+                </div>
+            </div>
+    </div>
        
-        
-        
-        <maincard >
-         <img src="img/like.png"
-            >
-       
-       <p  style="font-family: 'unifont'"> 令你無限享受</p>
-         </maincard>
+        </div>
+
+
+
+
+
+
+
+         <center  class="animate-bounce-slow">
+        <go  class="hover-lift" style="margin-top:20px;width:fit-content;text-align:center;font-family: 'unifont';color:#ffffff;font-size:30px;"><a href="index3.html">更多貓咪冷知識→</a></go>
+         </center>
   
       
-  </div>
+      <div style=" display:flex; justify-content: center;padding-top:200px;padding-left:10%;padding-right:10%;">
+ 
+        
+        
+       
+        <div style="display:flex; text-align:center;" class="all-box" >
+            
+    </div>
+       
+        </div>
+
+
+
+
+
+
+
+         <center  class="animate-bounce-slow">
+        <go  class="hover-lift" style="margin-top:20px;width:fit-content;text-align:center;font-family: 'unifont';color:#ffffff;font-size:30px;"><a href="index3.html">更多貓咪迷因→</a></go>
+         </center>
+
+
+
+
+
+  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>主頁面用</title>
+    <script src="/js/jquery-3.7.1.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="/js/board.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/12.6.0/firebase-app.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/12.6.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/12.6.0/firebase-firestore-compat.js"></script>
+</head>
+
+<body>
+    <div class="card-main animate-glow " style="padding-top:300px">
+        <div id="card-header" ><img src="img/paw.gif" style="height:2.5rem;">留言板<img src="img/paw.gif" style="height:2.5rem;"></div>
+        <input type="text" class=" name-field" id="name-field" placeholder="輸入暱稱" style="border-bottom: 2px solid white;">
+                <div class="card-footer text-muted" style="justify-content: center;">
+            <center><input type="text" class="form-control-plaintext message-field" id="message-field" style="height:400px;display: flex;align-items: flex-start;"
+                placeholder="留下想說的話吧！"> </center>
+        <div class="card-body">
+            <ul id='message-list' class="message-list"></ul>
+        </div>
+
+        </div>
+    </div>
+
+
+
 
    <footer style="
         
