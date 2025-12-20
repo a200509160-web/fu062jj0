@@ -11,6 +11,12 @@
 <body>
     <header>
         <h1>貓毛卯茂meme集中所</h1>
+        <input type="checkbox" id="menu-change" class="menu-checkbox">
+        <label for="menu-change" class="h-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
         <nav>
             <ul>
                 <li><a href="index.html">首頁</a></li>
@@ -21,28 +27,45 @@
         </nav>
     </header>
     <main>
-        <img src="img/shiroineko.gif" alt="白色貓咪">
-        <a href="#" class="border">點我贊助&lt;3</a>
-        <img src="img/cyaironeko.gif" alt="棕色貓咪">
+        <div class="container">
+            <img src="other/shiroineko.gif" alt="白色貓咪" class="cat">
+            <button id="sButton" class="border">點我贊助&lt;3</button>
+            <img src="other/cyaironeko.gif" alt="白色貓咪" class="cat">
+        </div>
+        <div id="supportcard" class="border">
+            <h3>請填寫以下資訊</h3>
+            <form id="supportForm">
+                <label for="name">姓名:</label>
+                <input type="text" id="name" required><br><br>
+
+                <label for="email">電子郵件:</label>
+                <input type="email" id="email" required><br><br>
+
+                <p>感謝您對貓咪迷因網站的貢獻！</p>
+
+                <button type="submit" class="border sp-b">確認提交</button>
+                <button type="button" id="cancel_b" class="border sp-b">返回</button>
+            </form>
+        </div>
     </main>
-   <footer style="
+    <footer style="
         
        
         background-image:url(img/foot.png);
       ">
-      
-       <p>Copyright © 2025 NEKOMEME All Rights Reserved<br><br>
-       <a  href="#">TOS</a>
-       <a  href="#">FAQ</a>
-       <a  href="#">Support</a>
-       <a  href="#">Contact us</a>
-      </p>
-    
-      <img src="img/thing_cats_10.png"
-          style="display:flex;position: relative;bottom:150px;left:80%;height:100px">
-          
-   
-        </footer>
+
+        <p>Copyright © 2025 NEKOMEME All Rights Reserved<br><br>
+            <a href="#">TOS</a>
+            <a href="#">FAQ</a>
+            <a href="#">Support</a>
+            <a href="#">Contact us</a>
+        </p>
+
+        <img src="img/thing_cats_10.png" style="display:flex;position: relative;bottom:150px;left:80%;height:100px">
+
+
+    </footer>
+    <script src="/js/support4.js"></script>
 </body>
 
 

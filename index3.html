@@ -12,6 +12,12 @@
     <div class="container">
         <header>
             <h1>貓毛卯茂meme集中所</h1>
+            <input type="checkbox" id="menu-change" class="menu-checkbox">
+            <label for="menu-change" class="h-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
             <nav>
                 <ul>
                     <li><a href="index.html">首頁</a></li>
@@ -30,85 +36,159 @@
                 </div>
                 <img src="img/しっぽを立てた黒ネコ_0.png" alt="">
             </div>
-            <div class="box">
-                <div class="box-nor border">
-                    <img src="img/くもりの夜_0.png" alt="夜晚">
-                    <div class="box-word">
-                        <h3>睡眠時間</h3>
-                        <p>貓咪每天睡眠時間可達16-20小時，貓咪是天生的獵人，需要大量睡眠來儲存能量。幼貓和老年貓可能睡得更久！</p>
+            <div class="tab-nav">
+                <button class="tab-button active border" data-tab="cold-knowledge">冷知識</button>
+                <button class="tab-button border" data-tab="move-knowledge">行為解析</button>
+                <button class="tab-button border" data-tab="health-knowledge">健康照顧</button>
+            </div>
+            <div class="all-box">
+                <div class="tab-content">
+                    <div id="cold-knowledge" class="tab-pane">
+                        <div class="box-1 border">
+                            <div class="square">1</div>
+                            <p>貓咪有230根骨頭，比人類多24根！</p>
+                        </div>
+                        <div class="box-1 border">
+                            <div class="square">2</div>
+                            <p>貓咪可以發出超過100種不同的聲音</p>
+                        </div>
+                        <div class="box-1 border">
+                            <div class="square">3</div>
+                            <p>貓咪的鼻紋是獨一無二的，就像人類的指紋</p>
+                        </div>
+                        <div class="box-1 border">
+                            <div class="square">4</div>
+                            <p>貓咪每天會花費30-50%的時間梳理毛髮</p>
+                        </div>
+                        <div class="box-1 border">
+                            <div class="square">5</div>
+                            <p>貓咪的聽力比人類和狗都要好</p>
+                        </div>
+                        <div class="box-1 border">
+                            <div class="square">6</div>
+                            <p>貓咪可以旋轉耳朵180度</p>
+                        </div>
+                        <div class="box-1 border">
+                            <div class="square">7</div>
+                            <p>貓咪的鬍鬚可以幫助牠們判斷空間大小</p>
+                        </div>
+                        <div class="box-1 border">
+                            <div class="square">8</div>
+                            <p>貓咪不能品嚐甜味</p>
+                        </div>
+                        <div class="box-7 border">
+                            <div class="boxin-title">
+                                <img src="img/電球.png" alt="電球">
+                                <h3>更多小知識</h3>
+                                <img src="img/電球.png" alt="電球">
+                            </div>
+                            <div class="boxin">
+                                <p class="border knowledge-1 active-1">貓咪在古埃及被視為神聖的動物。</p>
+                                <p class="border knowledge-1">貓咪每天睡眠時間可達16-20小時。</p>
+                                <p class="border knowledge-1">貓咪可以跳到自己身高的6倍高度。</p>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="box-nor border">
-                    <img src="img/音符C_0.png" alt="音符">
-                    <div class="box-word">
-                        <h3>呼嚕聲</h3>
-                        <p>呼嚕聲頻率為25-150赫茲，這個頻率不僅能讓貓咪放鬆，研究顯示還可能促進骨骼和組織的癒合。</p>
-                    </div>
-                </div>
-                <div class="box-nor border">
-                    <img src="img/チョコレート_0.png" alt="巧克力符號">
-                    <div class="box-word">
-                        <h3>味覺特性</h3>
-                        <p>貓咪無法品嚐甜味，貓咪缺少甜味受體，這是因為作為肉食動物，它們不需要辨識甜味。</p>
-                    </div>
-                </div>
-                <div class="box-nor border">
-                    <img src="img/スピーカー_0.png" alt="音量">
-                    <div class="box-word">
-                        <h3>發聲能力</h3>
-                        <p>貓咪有超過100種不同的發聲方式，從喵喵叫、呼嚕聲到嘶嘶聲，貓咪的發聲系統非常複雜，可以表達各種情緒。</p>
+                    <div id="move-knowledge" class="tab-pane">
+                        <div class="box-2 border">
+                            <img src="img/音符C_0.png" alt="音符">
+                            <div class="box-2-word">
+                                <h3>呼嚕聲</h3>
+                                <p>貓咪發出呼嚕聲不僅表示滿足，有時也是自我安慰或療癒的方式。</p>
+                            </div>
+                        </div>
+                        <div class="box-2 border">
+                            <img src="img/チョコレート_0.png" alt="巧克力符號">
+                            <div class="box-2-word">
+                                <h3>揉麵包動作</h3>
+                                <p>當貓咪在你身上踩踏時，這是牠們幼時吸奶的本能行為，表示牠們感到舒適和安全。</p>
+                            </div>
+                        </div>
+                        <div class="box-2 border">
+                            <img src="img/ピンクのハート_0.png" alt="愛心">
+                            <div class="box-2-word">
+                                <h3>慢速眨眼</h3>
+                                <p>貓咪對你慢慢眨眼是表達愛意和信任的方式，被稱為「貓咪之吻」。</p>
+                            </div>
+                        </div>
+                        <div class="box-2 border">
+                            <img src="img/雷_0.png" alt="雷">
+                            <div class="box-2-word">
+                                <h3>尾巴豎直</h3>
+                                <p>尾巴豎直向上表示貓咪心情愉快，歡迎你的互動。</p>
+                            </div>
+                        </div>
+                        <div class="box-7 border">
+                            <div class="boxin-title">
+                                <img src="img/電球_0.png" alt="電球">
+                                <h3>更多小知識</h3>
+                                <img src="img/電球_0.png" alt="電球">
+                            </div>
+                            <div class="boxin">
 
-                    </div>
-                </div>
-                <div class="box-nor border">
-                    <img src="img/ピンクのハート_0.png" alt="愛心">
-                    <div class="box-word">
-                        <h3>心跳速度</h3>
-                        <p>貓咪的心跳速度約為每分鐘140-220次，這比人類快得多！當貓咪放鬆時，心跳會較慢；興奮或緊張時會加快。</p>
-                    </div>
-                </div>
-                <div class="box-nor border">
-                    <img src="img/雷_0.png" alt="雷">
-                    <div class="box-word">
-                        <h3>跳躍能力</h3>
-                        <p>貓咪可以跳到自己身高的6倍高度，強壯的後腿肌肉讓貓咪擁有驚人的跳躍能力，相當於人類跳上一棟3層樓！</p>
-                    </div>
-                </div>
-                <div class="box-7 border">
-                    <div class="boxin-title">
-                        <img src="img/電球_0.png" alt="電球">
-                        <h3>更多小知識</h3>
-                        <img src="img/電球_0.png" alt="電球">
-                    </div>
-                    <div class="boxin">
-                        <p class="border">貓咪在古埃及被視為神聖的動物。</p>
-                        <p class="border">貓咪有230根骨頭，比人類多24根。</p>
-                        <p class="border">貓咪每天花費30-50%的時間梳理毛髮。</p>
-                    </div>
+                                <p class="border knowledge-2 active-1">貓咪在古埃及被視為神聖的動物。</p>
+                                <p class="border knowledge-2">貓咪每天睡眠時間可達16-20小時。</p>
+                                <p class="border knowledge-2">貓咪可以跳到自己身高的6倍高度。</p>
+                            </div>
 
+                        </div>
+                    </div>
+                    <div id="health-knowledge" class="tab-pane">
+                        <div class="box-3 border">
+                            <h3>定期健檢</h3>
+                            <p>每年至少帶貓咪做一次健康檢查，年長貓咪建議每半年一次。</p>
+                        </div>
+                        <div class="box-3 border">
+                            <h3>飲水充足</h3>
+                            <p>貓咪容易脫水，確保牠們隨時有乾淨的水可以喝。流動水更能吸引貓咪飲用。</p>
+                        </div>
+                        <div class="box-3 border">
+                            <h3>適當運動</h3>
+                            <p>每天至少15-30分鐘的互動遊戲時間，保持貓咪身心健康。</p>
+                        </div>
+                        <div class="box-3 border">
+                            <h3>牙齒保健</h3>
+                            <p>定期刷牙和檢查牙齒健康，預防牙周病。</p>
+                        </div>
+                        <div class="box-7 border">
+                            <div class="boxin-title">
+                                <img src="img/電球_0.png" alt="電球">
+                                <h3>更多小知識</h3>
+                                <img src="img/電球_0.png" alt="電球">
+                            </div>
+                            <div class="boxin">
+
+                                <p class="border knowledge-3 active-1">貓咪在古埃及被視為神聖的動物。</p>
+                                <p class="border knowledge-3">貓咪每天睡眠時間可達16-20小時。</p>
+                                <p class="border knowledge-3">貓咪可以跳到自己身高的6倍高度。</p>
+                            </div>
+
+                        </div>
+                    </div>
                 </div>
+
             </div>
         </main>
-       <footer style="
+        <footer style="
         
        
         background-image:url(img/foot.png);
       ">
-      
-       <p>Copyright © 2025 NEKOMEME All Rights Reserved<br><br>
-       <a  href="#">TOS</a>
-       <a  href="#">FAQ</a>
-       <a  href="#">Support</a>
-       <a  href="#">Contact us</a>
-      </p>
-    
-      <img src="img/thing_cats_10.png"
-          style="display:flex;position: relative;bottom:150px;left:80%;height:100px">
-          
-   
+
+            <p>Copyright © 2025 NEKOMEME All Rights Reserved<br><br>
+                <a href="#">TOS</a>
+                <a href="#">FAQ</a>
+                <a href="#">Support</a>
+                <a href="#">Contact us</a>
+            </p>
+
+            <img src="img/thing_cats_10.png" style="display:flex;position: relative;bottom:150px;left:80%;height:100px">
+
+
         </footer>
     </div>
-
+    <script src="/js/index3.js"></script>
+    <script src="/js/slide3.js"></script>
 
 </body>
 

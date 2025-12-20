@@ -4,158 +4,325 @@
 		<meta charset="utf-8">
 		<title>迷因館</title>
 		<link rel="stylesheet" href="css/style2.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
 </head>
 
 		
 	<body>
- <header>
+  <header>
             <h1>貓毛卯茂meme集中所</h1>
+            <input type="checkbox" id="menu-change" class="menu-checkbox">
+            <label for="menu-change" class="h-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
             <nav>
                 <ul>
                     <li><a href="index.html">首頁</a></li>
-                    <li><a href="#" class="now">迷因館</a></li>
-                    <li ><a href="index3.html" >貓咪芝士</a></li>
+                    <li><a href="index2.html">迷因館</a></li>
+                    <li><a href="index3.html" class="now">貓咪芝士</a></li>
                     <li><a href="index4.html">支持我們</a></li>
                 </ul>
             </nav>
         </header>
-		<div class="bar"></div>
-		<img src="img/thing_cats_03.png" alt="thing_cats_03" class="thing_cats_03">
+		<div class="title">
+			<img src="img/other_heart_02_0.png" alt="thing_cats_03" class="thing_cats_03">
+			<h2>迷因館</h2>
+			<p>收集各種貓咪迷因！</p>
+			<img src="img/thing_cats_04.png" alt="thing_cats_04" class="thing_cats_04">
+			<div class="line"></div>
+		</div>
+		<div class="cards">
 <div class="card">
-		<img src="img/olla cat.png" alt="olla cat">
+		<img class="olla" src="img/olla cat.png" alt="olla cat" data-static="img/olla cat.png" data-gif="img/oia-uia.gif">
 	<div class="ppp">
+		<div class="tt">
 		<h1>Olla cat</h1>
+				<button class="like">
+  <span class="like-info">
+    <span class="heart" role="button" aria-label="like">♥</span>
+    <span class="like-count">0</span>
+  </span>
+</button>
+		</div>
+		<div class="ll"></div>
 		<div class="t1">
-				<img src="img/text.png" alt="text">
 				<p>音訊來源:<a href="https://youtu.be/Z71JSSznhis?si=Y5Wc4iAXJ8bhQCMf">link to youtube</a></p>
 		</div>
 		<div class="t2">
-				<img src="img/text.png" alt="text">
 				<p>貓咪名字:</br>Ethel</p>
 		</div>
-	</div>
-	<img src="img/heart.png" alt="愛心" class="hhh">
-		<button class="like">按讚</button>
+	</div>		
+			<button class="details-btn" onclick="toggleDetails(this)">查看詳情</button>
+
 </div>
 		
-		<img src="img/thing_cats_04.png" alt="thing_cats_04" class="thing_cats_04">
 <div class="card">
-		<img src="img/happy cat.png" alt="happy cat">
+		<img class="happy" src="img/happy cat.png" alt="happy cat" data-static="img/happy cat.png" data-gif="img/happpp.gif">
 	<div class="ppp">
-		<h1>Happpy cat</h1>
+				<div class="tt">
+					<h1>Happpy cat</h1>
+	<button class="like">
+  <span class="like-info">
+    <span class="heart" role="button" aria-label="like">♥</span>
+    <span class="like-count">0</span>
+  </span>
+</button>
+		</div>
+				<div class="ll"></div>
+
 		<div class="t1">
-				<img src="img/text.png" alt="text">
 				<p>音訊來源:<a href="https://youtu.be/ufbOHl1mmYk?si=aN0fIwpwbC6LSbAm">link to youtube</a></p></div>
 		<div class="t2">
-				<img src="img/text.png" alt="text">
 				<p>原影片:<a href="https://x.com/1Nssu/status/663271961917652993">link to X</a></p>
 		</div>
 	</div>
-	<img src="img/heart.png" alt="愛心" class="hhh">
-				<button class="like">按讚</button>
+			<button class="details-btn" onclick="toggleDetails(this)">查看詳情</button>
 </div>
-		<img src="img/thing_cats_12.png" alt="thing_cats_12" class="thing_cats_12">
 <div class="card">
-		<img src="img/huh cat.png" alt="huh cat">
+		<img class="huh" src="img/huh cat.png" alt="huh cat" data-static="img/huh cat.png" data-gif="img/huuuh.gif">
 	<div class="ppp">
+		<div class="tt">
 		<h1>Huh? cat</h1>
+		<button class="like">
+  <span class="like-info">
+    <span class="heart" role="button" aria-label="like">♥</span>
+    <span class="like-count">0</span>
+  </span>
+</button>
+		</div>
+				<div class="ll"></div>
 		<div class="t1">
-				<img src="img/text.png" alt="text">
 				<p>原影片:<a href="https://www.tiktok.com/@huhcat_official/video/7199466399817813250?is_from_webapp=1&sender_device=pc">link to tiktok</a></p>
 		</div>
 		<div class="t2">
-				<img src="img/text.png" alt="text">
-				<p>音訊來源:<a href="https://youtu.be/pXhOidUGajw?si=_uqRA05fAtbAZULS">link to youtube</a></p></div>
-	</div>		
-	<img src="img/heart.png" alt="愛心" class="hhh">
-				<button class="like">按讚</button>
+				<p>音訊來源:<a href="https://youtu.be/pXhOidUGajw?si=_uqRA05fAtbAZULS">link to youtube</a></p>
+			</div>
+
+</div>		
+			<button class="details-btn" onclick="toggleDetails(this)">查看詳情</button>
+
+				
 </div>
 
-		<img src="img/thing_cats_05.png" alt="thing_cats_05" class="thing_cats_05">
 <div class="card">
-		<img src="img/pop cat.png" alt="pop cat">
+		<img class="pop" src="img/pop cat.png" alt="pop cat" data-static="img/pop cat.png" data-gif="img/pop.gif">
 	<div class="ppp">
+		<div class="tt">
 		<h1>Pop cat</h1>
+				<button class="like">
+  <span class="like-info">
+    <span class="heart" role="button" aria-label="like">♥</span>
+    <span class="like-count">0</span>
+  </span>
+</button>
+		</div>
+				<div class="ll"></div>
 		<div class="t1">
-				<img src="img/text.png" alt="text">
 				<p>原影片:<a href="https://youtu.be/_kKcKrj9Ce8?si=r7CRTNIdIMxodk54">link to youtube</a></p>
 		</div>
 		<div class="t2">
-				<img src="img/text.png" alt="text">
 				<p>飼主:<a href="https://x.com/XavierBFB">link to X</a></p></div>
-	</div>	
-	<img src="img/heart.png" alt="愛心" class="hhh">
-				<button class="like">按讚</button>
+	</div>			
+	<button class="details-btn" onclick="toggleDetails(this)">查看詳情</button>
 
 </div>
-		<img src="img/thing_cats_06.png" alt="thing_cats_06" class="thing_cats_06">
 <div class="card">
-		<img src="img/aoaoa cat.jpg" alt="aoaoa cat">
+		<img class="ta" src="img/aoaoa cat.jpg" alt="aoaoa cat" data-static="img/aoaoa cat.jpg" data-gif="img/talk.gif">
 	<div class="ppp">
+		<div class="tt">
 		<h1>講話 cat</h1>
+				<button class="like">
+  <span class="like-info">
+    <span class="heart" role="button" aria-label="like">♥</span>
+    <span class="like-count">0</span>
+  </span>
+</button>
+		</div>
+				<div class="ll"></div>
 		<div class="t1">
-		<img src="img/text.png" alt="text">
 		<p>原影片:<a href="【有没有翻译官能翻译一下猫语？】 https://www.bilibili.com/video/BV1FC4y1c7G3/?share_source=copy_web">link to bilibili</a></p>
 		</div>
 		<div class="t2">
-		<img src="img/text.png" alt="text">
 		<p>他為什麼一直講話:<a href="【嘴替猫骂骂咧咧前发生了什么？波仔说话竟然是这样触发的！】 https://www.bilibili.com/video/BV1Je411p7uY/?share_source=copy_web">link to bilibili</a></p></div>
-	</div>		
-	<img src="img/heart.png" alt="愛心" class="hhh">
-				<button class="like">按讚</button>
+	</div>				
+	<button class="details-btn" onclick="toggleDetails(this)">查看詳情</button>
+
 
 </div>
-				<img src="img/thing_cats_11.png" alt="thing_cats_11" class="thing_cats_11">
 <div class="card">
-		<img src="img/sad cat.png" alt="sad cat">
+		<img class="sad" src="img/sad cat.png" alt="sad cat" data-static="img/sad cat.png" data-gif="img/sad.gif">
 	<div class="ppp">
+		<div class="tt">
 		<h1>Sad cat</h1>
+				<button class="like">
+  <span class="like-info">
+    <span class="heart" role="button" aria-label="like">♥</span>
+    <span class="like-count">0</span>
+  </span>
+</button>
+		</div>
+				<div class="ll"></div>
 		<div class="t1">
-			<img src="img/text.png" alt="text">
 			<p>原影片:<a href="【你真的不打算起床喂我吗?】 https://www.bilibili.com/video/BV1sW4y197cE/?share_source=copy_web">link to bilibili</a></p>
 		</div>
 		<div class="t2">
-			<img src="img/text.png" alt="text">
 			<p>貓咪名字:</br>咣当</p></div>
-	</div>		
-	<img src="img/heart.png" alt="愛心" class="hhh">
-				<button class="like">按讚</button>
+	</div>				
+	<button class="details-btn" onclick="toggleDetails(this)">查看詳情</button>
+
 
 </div>
 <div class="card">
-		<img src="img/chipi.png" alt="chipi cat">
+		<img class="chi" src="img/chipi.png" alt="chipi cat" data-static="img/chipi.png" data-gif="img/chi.gif">
 	<div class="ppp">
+		<div class="tt">
 		<h1>chipi cat</h1>
+				<button class="like">
+  <span class="like-info">
+    <span class="heart" role="button" aria-label="like">♥</span>
+    <span class="like-count">0</span>
+  </span>
+</button>
+		</div>
+				<div class="ll"></div>
 		<div class="t1">
-		<img src="img/text.png" alt="text">
 		<p>貓咪名字:</br>Munchkin Cocoa</p>
 		</div>
 		<div class="t2">
-		<img src="img/text.png" alt="text">
 		<p>相關影片:<a href="https://www.instagram.com/p/ClBGR0VSVaR/?utm_source=ig_web_copy_link">link to instagram</a></p></div>
-	</div>		
-	<img src="img/heart.png" alt="愛心" class="hhh">
-				<button class="like">按讚</button>
+	</div>				
+	<button class="details-btn" onclick="toggleDetails(this)">查看詳情</button>
+
 
 </div>
 <div class="card">
-		<img src="img/p cat.jpg" alt="p cat">
+		<img class="p" src="img/p cat.jpg" alt="p cat" data-static="img/p cat.jpg" data-gif="img/pol.gif">
 	<div class="ppp">
+		<div class="tt">
 		<h1>有禮貌 cat</h1>
+				<button class="like">
+  <span class="like-info">
+    <span class="heart" role="button" aria-label="like">♥</span>
+    <span class="like-count">0</span>
+  </span>
+</button>
+		</div>
+				<div class="ll"></div>
 		<div class="t1">
-		<img src="img/text.png" alt="text">
 		<p>貓咪名字:</br>Ollie</p>
 		</div>
 		<div class="t2">
-		<img src="img/text.png" alt="text">
 		<p>原圖:<a href="https://9gag.com/gag/ajEKqzx?utm_source=copy_link&utm_medium=post_share">link to 9GAG</a></p></div>
 	</div>		
-	<img src="img/heart.png" alt="愛心" class="hhh">
-				<button class="like">按讚</button>
+			<button class="details-btn" onclick="toggleDetails(this)">查看詳情</button>
+
 
 </div>
-		<img src="img/thing_cats_07.png" alt="thing_cats_07" class="thing_cats_07">
-		<img src="img/しっぽを立てた黒ネコ_0.png" alt="黑貓" class="black_cat">
+<div class="card">
+		<img class="U" src="img/UUU.png" alt="U cat" data-static="img/UUU.png" data-gif="img/U.gif">
+	<div class="ppp">
+		<div class="tt">
+		<h1>嘔吐 cat</h1>
+				<button class="like">
+  <span class="like-info">
+    <span class="heart" role="button" aria-label="like">♥</span>
+    <span class="like-count">0</span>
+  </span>
+</button>
+		</div>
+				<div class="ll"></div>
+		<div class="t1">
+		<p>貓咪名字:</br>Belyash</p>
+		</div>
+		<div class="t2">
+		<p>原影片:<a href="https://dai.ly/x7xjzy9">link to dailymotion</a></p></div>
+	</div>		
+			<button class="details-btn" onclick="toggleDetails(this)">查看詳情</button>
+
+
+</div>
+<div class="card">
+		<img class="sss" src="img/sh.png" alt="s cat" data-static="img/sh.png" data-gif="img/sho.gif">
+	<div class="ppp">
+		<div class="tt">
+		<h1>震驚 cat</h1>
+				<button class="like">
+  <span class="like-info">
+    <span class="heart" role="button" aria-label="like">♥</span>
+    <span class="like-count">0</span>
+  </span>
+</button>
+		</div>
+				<div class="ll"></div>
+		<div class="t1">
+		<p>貓咪名字:</br>QQ</p>
+		</div>
+		<div class="t2">
+		<p>原影片:<a href="https://www.tiktok.com/@dyfot2m0q0nr/video/7334672867554020614?is_from_webapp=1&sender_device=pc">link to tiktok</a></p></div>
+	</div>		
+			<button class="details-btn" onclick="toggleDetails(this)">查看詳情</button>
+
+
+</div>
+<div class="card">
+		<img class="aaa" src="img/aaa.png" alt="aaa cat" data-static="img/aaa.png" data-gif="img/aa.gif">
+	<div class="ppp">
+		<div class="tt">
+		<h1>尖叫 cat</h1>
+				<button class="like">
+  <span class="like-info">
+    <span class="heart" role="button" aria-label="like">♥</span>
+    <span class="like-count">0</span>
+  </span>
+</button>
+		</div>
+				<div class="ll"></div>
+		<div class="t1">
+		<p>貓咪名字:</br>十九</p>
+		</div>
+		<div class="t2">
+		<p>原影片:<a href="【抱头尖叫小猫来了，感谢各位喜欢，还有其余视频逐步更新❤️❤️❤️】 https://www.bilibili.com/video/BV1sw411V7C2/?share_source=copy_web">link to bilibili</a></p></div>
+	</div>		
+			<button class="details-btn" onclick="toggleDetails(this)">查看詳情</button>
+
+
+</div>
+<div class="card">
+	<div class="pp">
+	    <img class="cat-body" src="img/thing_cats_03.png" alt="cat">
+	<div class="ppp">
+		<p class="typing-text">載入更多喵咪中…</p>
+	</div>
+	</div>
+</div>
+
+</div>
+
+  <div class="museum-display">
+ 
+  
+</div>
+  
+</div>	
+<section class="stats">
+  <div class="stat-card">
+    <div class="stat-number yellow">11</div>
+    <div class="stat-label">收藏迷因</div>
+  </div>
+
+  <div class="stat-card">
+    <div class="stat-number pink">1000k</div>
+    <div class="stat-label">總讚數</div>
+  </div>
+
+  <div class="stat-card">
+    <div class="stat-number cyan">∞</div>
+    <div class="stat-label">歡樂時光</div>
+  </div>
+</section>
 
 		<div class="mo">
 		<img src="img/thing_mouse_01.png" alt="thing_mouse_01">
@@ -187,13 +354,15 @@
       if (entry.isIntersecting) {
         setTimeout(() => {
           entry.target.classList.add('show');
-        }, index * 200); // 每個框延遲 0.2 秒，讓它「一個一個滑進來」
+        }, index * 200); 
       }
     });
-  }, { threshold: 0.2 }); // 框進入 20% 畫面時觸發
+  }, { threshold: 0.2 }); 
 
   boxes.forEach(box => observer.observe(box));
 </script>
+<script src="js/script2.js"></script>
+
 	</body>
 	
 </html>
