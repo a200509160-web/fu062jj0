@@ -35,6 +35,9 @@ header{
     top: 0;
     border-bottom: 3px solid #3845F1;
 }
+header a{
+    text-decoration: none;
+}
 
 header h1{
     color: white;
@@ -99,7 +102,7 @@ height:21vw;
     font-size:30px;
     border-bottom: 2px solid white;
     display: inline;
-    padding:0px 100px 0px 100px;"
+    padding:0px 100px 0px 100px;
 }
 
 
@@ -144,7 +147,7 @@ maincard img{
 
     filter: drop-shadow(5px 5px #00000050);
     margin-top:20%;
-    margin-bottom:;
+ 
     height:25%;
     width:25%;
     align-items: center;
@@ -248,7 +251,7 @@ footer a{
     display: flex !important;
     flex-wrap: wrap;
     justify-content: center;
-     animation: bounce 2s ease-in-out infinite;s
+     animation: bounce 2s ease-in-out infinite;
 }
 .square {
     margin-left: 40px;
@@ -485,7 +488,7 @@ s
     font-size:30px;
     border-bottom: 2px solid white;
     display: inline;
-    padding:0px 50px 0px 50px;"
+    padding:0px 50px 0px 50px;
 }
 
     /*header*/
@@ -537,7 +540,7 @@ s
     font-size:30px;
     border-bottom: 2px solid white;
     display: inline;
-    padding:0px 30px 0px 30px;"
+    padding:0px 30px 0px 30px;
 }
 
 

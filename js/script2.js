@@ -143,7 +143,6 @@ document.querySelectorAll('.like').forEach(button => {
     button.dataset.count = count;
     button.querySelector('.like-count').textContent = count;
 
-    // 簡單回饋效果
     button.classList.add('liked');
     setTimeout(() => {
       button.classList.remove('liked');
@@ -163,3 +162,4 @@ document.querySelectorAll('.like').forEach(button => {
     }, 200);
   });
 });
+
