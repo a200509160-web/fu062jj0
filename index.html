@@ -184,33 +184,35 @@
 
 
   
+   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>主頁面用</title>
-    <script src="/js/jquery-3.7.1.min.js"></script>
+    <script src="js/jquery-3.7.1.min.js"></script>
     <link rel="stylesheet" href="style.css">
-    <script src="/js/board.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/12.6.0/firebase-app.js"></script>
 
-    <script src="https://www.gstatic.com/firebasejs/12.6.0/firebase-app-compat.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/12.6.0/firebase-firestore-compat.js"></script>
+
 </head>
 
-<body>
-    <div class="card-main animate-glow " style="padding-top:300px">
+<body> <center>
+    <div class="card-main animate-glow " style="padding-top:300px;padding-bottom: 200px;">
         <div id="card-header" ><img src="img/paw.gif" style="height:2.5rem;">留言板<img src="img/paw.gif" style="height:2.5rem;"></div>
-        <input type="text" class=" name-field" id="name-field" placeholder="輸入暱稱" style="border-bottom: 2px solid white;">
+        <board>
+        <input type="text" class=" name-field" id="name-field" placeholder="輸入暱稱" style="border-bottom: 2px dashed rgb(190, 203, 229);">
                 <div class="card-footer text-muted" style="justify-content: center;">
-            <center><input type="text" class="form-control-plaintext message-field" id="message-field" style="height:400px;display: flex;align-items: flex-start;"
-                placeholder="留下想說的話吧！"> </center>
+           <input type="text" class="form-control-plaintext message-field" id="message-field" style="height:200px;display: flex;align-items: flex-start;"
+                placeholder="留下想說的話吧！"> 
         <div class="card-body">
             <ul id='message-list' class="message-list"></ul>
         </div>
-
+ </board>
         </div>
-    </div>
+    </div></center>
 
+<script src="https://www.gstatic.com/firebasejs/12.6.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/12.6.0/firebase-firestore-compat.js"></script>
 
+    <script src="js/board.js"></script>
 
 
    <footer style="

@@ -404,6 +404,7 @@ height:200%;
   user-select: none;
 }
 
+
 /* Position the "next button" to the right */
 .next {
   right: 0;
@@ -498,7 +499,15 @@ input{
 }
 s
 .card-body {
-  width: 60%;
+  width:60vw;
+  scrollbar-color:#000000 #ffffff;
+}
+
+
+div board{
+max-width:1000px;
+border-style: double;
+border-color: #0c1cf5;
 }
 
 
@@ -511,13 +520,15 @@ s
 
 .name-field,
 .message-field {
-  padding: 15px;
-  width: 70vw;
+  padding: 15px; 
+  max-width:1000px;
+   width:80vw;
+ 
   border: none;
   outline : none;
-  background-color: #18326c;
+  background-color: #12224a;
   color: white;
-   box-shadow: 0px 0px 100px 5px rgba(74, 131, 252, 0.735);
+   
 }
 
 .name-field::placeholder,
@@ -534,8 +545,16 @@ s
   font-family: 'unifont';
   line-height: 1.4;
   font-size: 1.5em;
-  width: 490px;
+  text-align: left;
+  overflow-wrap: normal;
+max-width:80vw;
+background-color:#114490;
+ scrollbar-color:#3c45ff #ffffff00;
+ border-style:dashed;
+ border-color: #3845F1;
+ border-width: 3px;
 
+ line-height: 30px;
 }
 
 .message-item {
